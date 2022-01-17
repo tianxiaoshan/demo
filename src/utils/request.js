@@ -3,8 +3,9 @@ import axios from 'axios'
 import { getTokenInfo } from './storage'
 
 const instance = axios.create({
-  timeout: 5000,
-  baseURL: 'http://geek.itheima.net/v1_0',
+  timeout: 8000,
+  baseURL:
+    'https://www.fastmock.site/mock/ac9d664fc26b91d4b62fe215c19f93b3/study',
 })
 // 可以去axois文档上找
 // 配置请求拦截器
